@@ -62,7 +62,7 @@ const questions = [
     }
 ];
 
-const asciiText = figlet.textSync("Safe", {
+const asciiText = figlet.textSync("Zexxy kontol", {
     font: 'Graffiti',
     horizontalLayout: 'default',
     verticalLayout: 'default',
@@ -86,7 +86,7 @@ function iStumble(interval, round, authorization) {
             } else if (typeof data == "object") {
                 const date = new Date();
                 let { Id, Username, Country, Region, Crowns, SkillRating } = data.User;
-                const print = `[${color(date.getHours())}:${date.getMinutes()}] ` + [color(Id, "cyanBright"), color(Username), color(Country, "green"), color(Region, "blueBright"), color(Crowns, "redBright"), color(SkillRating, "yellowBright")].join(" | ");
+                const print = `[${color(date.getHours())}:${date.getMinutes()}] ` + [color(Id, "cyanBright"), color(Username), color(Country, "white"), color(Region, "blueBright"), color(Crowns, "cyanBright"), color(SkillRating, "greenBright")].join(" | ");
                 console.log(print);
             }
         } catch (error) {}
