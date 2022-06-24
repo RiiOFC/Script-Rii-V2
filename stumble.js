@@ -105,7 +105,7 @@ function stageRequest(authorization, round) {
                 Authorization: JSON.stringify(authorization),
                 use_response_compression: true,
                 "Accept-Encoding": "gzip",
-                "User-Agent": "Dalvik/2.1.0 (Mozilla/5.0 (Windows NT 10.0; Win64; x64))",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64))",
             }
         })
             .then((response) => {
