@@ -1,1 +1,116 @@
-const _0x51c7c9=_0x45ee;function _0x45ee(_0x51c44a,_0x5a37a9){const _0x2da870=_0x2da8();return _0x45ee=function(_0x45eef5,_0x25b70e){_0x45eef5=_0x45eef5-0x1d0;let _0x2d5763=_0x2da870[_0x45eef5];return _0x2d5763;},_0x45ee(_0x51c44a,_0x5a37a9);}(function(_0x3bffc9,_0x3a0f9c){const _0x3e67b5=_0x45ee,_0x170447=_0x3bffc9();while(!![]){try{const _0x5ed651=parseInt(_0x3e67b5(0x1e1))/0x1+parseInt(_0x3e67b5(0x1e4))/0x2*(parseInt(_0x3e67b5(0x1f6))/0x3)+-parseInt(_0x3e67b5(0x1d7))/0x4+-parseInt(_0x3e67b5(0x1df))/0x5+-parseInt(_0x3e67b5(0x1dc))/0x6*(parseInt(_0x3e67b5(0x1e9))/0x7)+parseInt(_0x3e67b5(0x1e3))/0x8+parseInt(_0x3e67b5(0x1fc))/0x9;if(_0x5ed651===_0x3a0f9c)break;else _0x170447['push'](_0x170447['shift']());}catch(_0x22de66){_0x170447['push'](_0x170447['shift']());}}}(_0x2da8,0x760e8));function _0x2da8(){const _0x5abcb7=['@i-scrapper/plugins-request','Interval\x20Delay:','parse','2152974GzENAJ','lana\x20Hy','redBright','blueBright','white','catch','2918088ijMuos','bold','http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/','getHours','list','authorization','\x20|\x20','User','string','object','Stage\x201','2405636DElODF','async','getMinutes','BANNED','greenBright','12Zfshab','cyanBright','Stage\x202','1720025KsyMsz','log','204145OQrmfq','includes','6467144GKtuIJ','2mKRrsp','join','inquirer','gzip','input','2189089AwpuNX','message','stringify','default','Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20Win64;\x20x64))','figlet','textSync','interval','round','You\x20need\x20to\x20provide\x20Authorization\x20keys'];_0x2da8=function(){return _0x5abcb7;};return _0x2da8();}const chalk=require('chalk'),figlet=require(_0x51c7c9(0x1ee)),inquirer=require(_0x51c7c9(0x1e6)),request=require(_0x51c7c9(0x1f3)),questions=[{'type':_0x51c7c9(0x1e8),'name':_0x51c7c9(0x1d1),'message':color('Authorization\x20keys:'),'prefix':color('[',_0x51c7c9(0x1f8))+'+'+color(']',_0x51c7c9(0x1f8)),'suffix':'~','validate':function(_0x328f34){const _0x1ad3de=_0x51c7c9,_0x2d4a84=this['async']();if(!_0x328f34)return _0x2d4a84(_0x1ad3de(0x1f2)),![];let _0x2922cb;try{_0x2922cb=JSON[_0x1ad3de(0x1f5)](_0x328f34);}catch(_0x4858db){_0x2922cb=_0x4858db[_0x1ad3de(0x1ea)];}if(typeof _0x2922cb!=_0x1ad3de(0x1d5))return _0x2d4a84('You\x20need\x20to\x20provide\x20Authorization\x20keys\x20as\x20Object'),![];return _0x2d4a84(null,!![]);}},{'type':_0x51c7c9(0x1d0),'name':_0x51c7c9(0x1f1),'message':color('Authorization\x20keys\x20taken\x20at\x20\x27Round\x27:'),'prefix':color('[','redBright')+'+'+color(']','redBright'),'suffix':'~','choices':[_0x51c7c9(0x1d6),_0x51c7c9(0x1de),'Stage\x203'],'filter':_0x1212c9=>{return{'Stage\x201':0x1,'Stage\x202':0x2,'Stage\x203':0x3}[_0x1212c9];}},{'type':'input','name':_0x51c7c9(0x1f0),'message':color(_0x51c7c9(0x1f4)),'prefix':color('[',_0x51c7c9(0x1f8))+'+'+color(']','redBright'),'suffix':'~','default':0x3e8,'validate':function(_0x48abd3){const _0x548196=_0x51c7c9,_0x11367d=this[_0x548196(0x1d8)]();if(_0x48abd3&&isNaN(_0x48abd3))return _0x11367d('You\x20need\x20to\x20provide\x20a\x20number'),![];return _0x11367d(null,!![]);}}],asciiText=figlet[_0x51c7c9(0x1ef)](_0x51c7c9(0x1f7),{'font':'Graffiti','horizontalLayout':'default','verticalLayout':_0x51c7c9(0x1ec),'width':0x4b,'whitespaceBreak':!![]});console['log'](color(asciiText,'redBright')),inquirer['prompt'](questions)['then'](async({authorization:_0x3c5616,round:_0x2329c2,interval:_0x558d66})=>{const _0x4ffb1f=_0x51c7c9,_0x14d0a9=JSON[_0x4ffb1f(0x1f5)](_0x3c5616);iStumble(_0x558d66,_0x2329c2,_0x14d0a9);});function iStumble(_0x7f0c7f,_0x606f9c,_0x5455a8){setInterval(async function _0x144f32(){const _0x25a818=_0x45ee;try{const {data:_0x3f42c9}=await stageRequest(_0x5455a8,_0x606f9c);if(typeof _0x3f42c9==_0x25a818(0x1d4)&&_0x3f42c9[_0x25a818(0x1e2)](_0x25a818(0x1da)))console['error'](color('BANNED','redBright'));else{if(typeof _0x3f42c9==_0x25a818(0x1d5)){const _0x452fa1=new Date();let {Id:_0x19b308,Username:_0x51b16c,Country:_0x596510,Region:_0x41364c,Crowns:_0x205fac,SkillRating:_0xa2796f}=_0x3f42c9[_0x25a818(0x1d3)];const _0x5d8cfd='['+color(_0x452fa1[_0x25a818(0x1ff)]())+':'+_0x452fa1[_0x25a818(0x1d9)]()+']\x20'+[color(_0x19b308,_0x25a818(0x1dd)),color(_0x51b16c),color(_0x596510,_0x25a818(0x1fa)),color(_0x41364c,_0x25a818(0x1f9)),color(_0x205fac,_0x25a818(0x1dd)),color(_0xa2796f,_0x25a818(0x1db))][_0x25a818(0x1e5)](_0x25a818(0x1d2));console[_0x25a818(0x1e0)](_0x5d8cfd);}}}catch(_0x22a7f3){}},Number(_0x7f0c7f));}function color(_0x4926ea,_0x3d3bf8){const _0x4b5f54=_0x51c7c9;return _0x3d3bf8?chalk[_0x3d3bf8][_0x4b5f54(0x1fd)](_0x4926ea):chalk[_0x4b5f54(0x1fa)][_0x4b5f54(0x1fd)](_0x4926ea);}function stageRequest(_0x2a927b,_0x3acc29){return new Promise((_0x1915f7,_0x2344ce)=>{const _0x1fcdd1=_0x45ee;request({'url':_0x1fcdd1(0x1fe)+_0x3acc29,'headers':{'Authorization':JSON[_0x1fcdd1(0x1eb)](_0x2a927b),'use_response_compression':!![],'Accept-Encoding':_0x1fcdd1(0x1e7),'User-Agent':_0x1fcdd1(0x1ed)}})['then'](_0x192555=>{_0x1915f7(_0x192555);})[_0x1fcdd1(0x1fb)](_0x2344ce);});}
+const chalk = require("chalk");
+const figlet = require("figlet");
+const inquirer = require("inquirer");
+const request = require("@i-scrapper/plugins-request");
+
+const questions = [
+    {
+        type: "input",
+        name: "authorization",
+        message: color("Authorization keys:"),
+        prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
+        suffix: "~",
+        validate: function (input) {
+            const done = this.async();
+            if (!input) {
+                done('You need to provide Authorization keys');
+                return false;
+            }
+            let authParse;
+            try {
+                authParse = JSON.parse(input);
+            } catch (error) {
+                authParse = error.message;
+            }
+            if (typeof authParse != "object") {
+                done("You need to provide Authorization keys as Object");
+                return false;
+            }
+            return done(null, true);
+        },
+    },
+    {
+        type: "list",
+        name: "round",
+        message: color("Authorization keys taken at 'Round':"),
+        prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
+        suffix: "~",
+        choices: ["Stage 1", "Stage 2", "Stage 3"],
+        filter: (value) => {
+            return {
+                "Stage 1": 1,
+                "Stage 2": 2,
+                "Stage 3": 3,
+            }[value];
+        },
+    },
+    {
+        type: "input",
+        name: "interval",
+        message: color("Interval Delay:"),
+        prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
+        suffix: "~",
+        default: 1000,
+        validate: function (input) {
+            const done = this.async();
+            if (input && isNaN(input)) {
+                done('You need to provide a number');
+                return false;
+            }
+            return done(null, true);
+        },
+    }
+];
+
+const asciiText = figlet.textSync("VIP NEW", {
+    font: 'Graffiti',
+    horizontalLayout: 'default',
+    verticalLayout: 'default',
+    width: 75,
+    whitespaceBreak: true
+});
+console.log(color(asciiText, "redBright"));
+
+inquirer.prompt(questions)
+    .then(async ({ authorization, round, interval }) => {
+        const authParse = JSON.parse(authorization);
+        iStumble(interval, round, authParse);
+    });
+
+function iStumble(interval, round, authorization) {
+    setInterval(async function iStumble() {
+        try {
+            const { data } = await stageRequest(authorization, round);
+            if (typeof data == "string" && data.includes("BANNED")) {
+                console.error(color("BANNED", "redBright"));
+            } else if (typeof data == "object") {
+                const date = new Date();
+                let { Id, Username, Country, Region, Crowns, SkillRating } = data.User;
+                const print = `[${color(date.getHours())}:${date.getMinutes()}] ` + [color(Id, "cyanBright"), color(Username), color(Country, "white"), color(Region, "blueBright"), color(Crowns, "cyanBright"), color(SkillRating, "greenBright")].join(" | ");
+                console.log(print);
+            }
+        } catch (error) {}
+    }, Number(interval));
+}
+
+function color(text, color) {
+    return color ? chalk[color].bold(text) : chalk.green.bold(text);
+}
+
+function stageRequest(authorization, round) {
+    return new Promise((resolve, reject) => {
+        request({
+            url: `http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/${round}`,
+            headers: {
+                Authorization: JSON.stringify(authorization),
+                use_response_compression: true,
+                "Accept-Encoding": "gzip",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64))",
+            }
+        })
+            .then((response) => {
+                resolve(response);
+            })
+            .catch(reject);
+    });
+}
